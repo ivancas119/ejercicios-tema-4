@@ -1,0 +1,46 @@
+public class Ejercicios4 {  
+    public static void main(String[] args){
+     /////////////////////////////////////////////////////////////// primer ejercico
+        int numeroif=-15;
+        if (numeroif>0){
+            System.out.println("numero positivo");
+        } else if(numeroif<0){
+            System.out.println("numero es negativo");
+        }
+        ////////////////////////////////////////////////////////// segundo ejercicio
+     int numeroWhile=0;
+     while (numeroWhile<3){
+     System.out.println(numeroWhile);
+       numeroWhile=numeroWhile+1;}
+    //////////////////////////////////////////////////////////// tercer ejercicio
+        int numerowile=0;
+        do {
+            numerowile=numerowile+1;
+           }
+        while (numerowile<3);
+        System.out.println(numerowile);
+    /////////////////////////////////////////////////////////// cuarto ejercicio
+             for (int numeroFor=0; numeroFor<=3;numeroFor = numeroFor + 1) {
+                System.out.println(numeroFor);}
+    ////////////////////////////////////////////////////////// quinto ejercicio
+    var estacion= "lunes";
+    switch (estacion){
+        case "verano":
+        System.out.println("es verano");
+        break;
+        case"invierno":
+            System.out.println("es invierno");
+        break;
+        case "primavera":
+            System.out.println("es primavera");
+        break;
+        case "otoño":
+            System.out.println("es otoño");
+        break;
+        default:
+            System.out.println("no es valido");
+
+    }
+
+    }
+}
